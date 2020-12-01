@@ -1,0 +1,4 @@
+dependencies {
+    implementation project(':libs:internal-module') //будет аналогичный мавену runtime скоуп
+    api project(':libs:public-module')//будет аналогичный мавену compile скоуп (он же если не указывать)
+}

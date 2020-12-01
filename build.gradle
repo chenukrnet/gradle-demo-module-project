@@ -1,0 +1,4 @@
+allprojects {
+    group 'org.home.com.home.demo.gradle.implementation'
+    version '1.0-SNAPSHOT'
+}

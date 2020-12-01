@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'org.home.com.home.demo.gradle.implementation:interface-only-access:1.0-SNAPSHOT'
+}
